@@ -1,0 +1,68 @@
+{
+  "name": "harrypottervue",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "animate.css": "^3.7.2",
+    "autoprefixer": "^9.6.0",
+    "bootstrap": "^4.3.1",
+    "core-js": "^2.6.5",
+    "css-loader": "^2.1.1",
+    "firebase": "^6.2.0",
+    "firebase-tools": "^7.0.0",
+    "jquery": "^3.4.1",
+    "loader": "^2.1.1",
+    "popper.js": "^1.15.0",
+    "postcss": "^7.0.17",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-mixins": "^6.2.1",
+    "postcss-nested": "^4.1.2",
+    "postcss-nesting": "^7.0.0",
+    "postcss-simple-vars": "^5.0.2",
+    "v-wow": "git+https://github.com/guisoares2011/vue-wow.git",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.6",
+    "vue-wow": "^1.2.0",
+    "vuetify": "^1.5.14",
+    "wow.js": "^1.2.2",
+    "wowjs": "^1.1.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.8.0",
+    "@vue/cli-plugin-eslint": "^3.8.0",
+    "@vue/cli-service": "^3.8.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

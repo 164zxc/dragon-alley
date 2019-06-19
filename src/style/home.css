@@ -1,0 +1,535 @@
+@font-face {
+  font-family: "Harry Potter";
+  src: url("../assets/HarryPotter.TTF");
+}
+
+html {
+  font-size: 18px;
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin: 0;
+  overflow-x: hidden;
+  height: 100%;
+  padding:0;
+  scroll-behavior: smooth;
+}
+.word{
+  padding:10px;
+}
+a{
+  padding-top: 3em;
+  text-decoration: none;
+  font-size: 1.3em;
+  color:white;
+}
+p {
+  font-size: 1.1em;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+}
+.diagonalley {
+  background-image: url("../assets/Diagon Alley Night(new).jpg");
+  height: 600px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+}
+
+.diagonalley h1 {
+  margin: 0;
+  text-align: center;
+  color: white;
+  vertical-align: middle;
+  padding-top: 20%;
+  font-size: 5em;
+  letter-spacing: 8px;
+  line-height: 0.5rem;
+  font-family: "Harry Potter", sans-serif;
+}
+
+.diagonalley p {
+  margin: 0;
+  text-align: center;
+  color: white;
+  vertical-align: middle;
+  padding-top: 8%;
+  font-size: 1em;
+  letter-spacing: 1px;
+  line-height: 0.5rem;
+
+}
+#section-a h4{
+  padding-left: 10%;
+  padding-right:10%; 
+  margin: auto;
+}
+.shoptitle {
+  font-size: 1.8em;
+  margin-bottom: 1em;
+}
+.background {
+  margin: 0;
+  padding: 0;
+  background-color: #001338;
+}
+
+.flourish {
+  margin: 0;
+  overflow: auto;
+  display: flex;
+  padding-left:30px;
+  padding-right:30px;
+}
+
+.img1 {
+  padding: 0;
+  margin: 50px;
+  display: flex;
+  align-self: center;
+}
+
+.img2 {
+  width: 80%;
+  padding: 0;
+  margin: 50px;
+  display: flex;
+  align-self: center;
+}
+
+.img3 {
+  width: 80%;
+  padding: 0;
+  margin: 50px;
+  display: flex;
+  align-self: center;
+}
+
+.img4 {
+  width: 80%;
+  padding: 0;
+  margin: 50px;
+  display: flex;
+  align-self: center;
+}
+
+.img5 {
+  padding: 0;
+  margin: 50px;
+  display: flex;
+  align-self: center;
+}
+
+.ollivanders {
+  margin: 0;
+  overflow: auto;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row-reverse;
+  padding-left:30px;
+  padding-right:30px;
+}
+
+.ollivanders img {
+  margin-right: 20px;
+  display: flex;
+  align-self: center;
+}
+
+.weasleys {
+  margin: 0;
+  overflow: auto;
+  border-radius: 4px;
+  display: flex;
+  justify-content: flex-start;
+  padding-left:30px;
+  padding-right:30px;
+}
+
+.eeylops {
+  margin: 0;
+  overflow: auto;
+  border-radius: 4px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row-reverse;
+  padding-left:30px;
+  padding-right:30px;
+}
+
+.eeylops img {
+  margin-right: 20px;
+  display: flex;
+  align-self: center;
+}
+
+.quidditch {
+  margin: 0;
+  overflow: auto;
+  border-radius: 4px;
+  display: flex;
+  justify-content: flex-start;
+  padding-left:30px;
+  padding-right:30px;
+}
+
+.shopintro1 {
+  font-size: 1.2em;
+  margin: 50px;
+  text-align: center;
+  background-color: #5d6a70;
+  color: aliceblue;
+  display: flex;
+  align-self: center;
+  padding: 20px;
+}
+
+.shopintro2 {
+  margin: 50px;
+  font-size: 1.2em;
+  text-align: center;
+  background-color: #507f85;
+  color: aliceblue;
+  display: flex;
+  align-self: center;
+  padding: 20px;
+}
+
+
+
+.word {
+  padding: 1em;
+}
+
+@media(max-width:376px) {
+  .flourish,
+  .ollivanders,
+  .weasleys,
+  .eeylops,
+  .quidditch {
+      flex-direction: column;
+      padding-left:1px;
+      padding-right:1px;
+  }
+  
+  .shoptitle {
+      font-size: 1em;
+      margin-bottom: 0.2em;
+     
+  }
+  .shoptitle :hover{
+    color:red;
+  }
+  p {
+      font-size: 0.7em;
+      line-height:1.1em;
+      letter-spacing: 1px;
+  }
+  
+a{padding-top:1em;}
+
+  .img1 {
+      width: 90%;
+      margin: 20px;
+  }
+  .img2 {
+      width: 90%;
+      margin: 20px;
+  }
+  .img3 {
+      width: 90%;
+      margin: 20px;
+  }
+  .img4 {
+      width: 90%;
+      margin: 20px;
+  }
+  .img5 {
+      width: 90%;
+      margin: 20px;
+  }
+  .shopintro1 {
+      margin: 0px 20px 20px 20px;
+  }
+  .shopintro2 {
+      margin: 0px 20px 20px 20px;
+  }
+  #main-footer{
+    padding: 2em;
+    background: white;
+    color:white;
+    text-align: center;
+    height: 300px;
+  }
+  #main-footer a{
+    columns: #2690d4;
+    text-decoration: none;
+  }
+
+  .diagonalley {
+    background-image: url("../assets/Diagon Alley Night(new).jpg");
+    height: 150px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding: 0;
+  }
+
+  .diagonalley h1 {
+    margin: 0;
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+    padding-top: 15%;
+    font-size: 1.5em;
+    letter-spacing: 5px;
+    line-height: 0.5rem;
+    font-family: "Harry Potter", sans-serif;
+  }
+  .diagonalley p {
+    margin: 0;
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+    padding-top: 8%;
+    font-size: 0.5em;
+    letter-spacing: 1px;
+    line-height: 0.5rem;
+  
+  }
+  .word{
+    padding:0px;
+  }
+}
+
+@media(min-width:375px) and (max-width:768px) {
+  .flourish,
+  .ollivanders,
+  .weasleys,
+  .eeylops,
+  .quidditch {
+      
+      padding-left:3px;
+      padding-right:3px;
+  }
+
+  .shoptitle {
+      font-size: 1.1em;
+      margin-bottom: 0.8em;
+  }
+  .shoptitle :hover{
+    color:red;
+  }
+  .diagonalley {
+    background-image: url("../assets/Diagon Alley Night(new).jpg");
+    height: auto;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding: 0;
+  }
+
+  p {
+      font-size: 0.5em;
+      line-height: 1.6em;
+      letter-spacing: 1px;
+  }
+  .img1 {
+      width: 90%;
+      margin: 20px;
+  }
+  .img2 {
+      width: 70%;
+      margin: 20px;
+  }
+  .img3 {
+      width: 70%;
+      margin: 20px;
+  }
+  .img4 {
+      width: 70%;
+      margin: 20px;
+  }
+  .img5 {
+      width: 100%;
+      margin: 20px;
+  }
+  .shopintro1 {
+      margin: 20px;
+  }
+  .shopintro2 {
+      margin: 20px;
+  }
+  .word{
+    padding:8px;
+  }
+}
+@media (min-width:1024px) and (max-width:1440px){
+  .flourish,
+  .ollivanders,
+  .weasleys,
+  .eeylops,
+  .quidditch {
+      padding-left:5px;
+      padding-right:5px;
+  }
+  .shoptitle {
+    font-size: 1em;
+    margin-bottom: 0.7em;
+}
+.shoptitle :hover{
+  color:red;
+}
+.shopintro1 {
+  margin: 20px;
+}
+.shopintro2 {
+  margin: 20px;
+}
+.img1, .img2, .img3, .img4 ,.img5 {
+  margin: 20px;
+}
+}
+
+.sidenav {
+  height: 100%;
+  width: 0px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background: rgb(88, 88, 88);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 5%;
+}
+
+.sidenav li {
+  list-style: none;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+
+
+#main {
+  transition: margin-right .5s;
+  padding: 0px;
+  
+}
+
+label .menu {
+  float: right;
+  margin-top: 3%;
+  margin-right:6%;
+  width: 28px;
+  height: 46px;
+  right: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  
+  cursor: pointer;
+
+}
+
+label .hamburger {
+  position: absolute;
+  width: 35px;
+  height: 3px;
+  background: rgb(255, 255, 255);
+  display: block;
+  transform-origin: center;
+  transition: .5s ease-in-out;
+  opacity: 0.85;
+
+}
+
+label .hamburger:after,
+label .hamburger:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  left: 0;
+  transform-origin: center center;
+  transition: top .25s ease, bottom .25s ease;
+  transition: transform .25s ease, top .25s ease, bottom .25s ease;
+  transition: transform .25s ease, top .25s ease, bottom .25s ease;
+}
+
+label .hamburger:before {
+  top: -10px;
+  position: absolute;
+}
+
+label .hamburger:after {
+  bottom: -10px;
+  position: absolute;
+}
+
+label input {
+  display: none;
+  position: absolute;
+}
+
+label input:checked+.menu .hamburger {
+  transform: rotate(45deg);
+}
+
+label input:checked+.menu .hamburger:after {
+
+  transform: rotate(90deg);
+  bottom: 0;
+}
+
+label input:checked+.menu .hamburger:before {
+  transform: rotate(90deg);
+  top: 0;
+}
+
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+/* footer */
+
