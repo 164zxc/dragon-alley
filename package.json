@@ -15,7 +15,7 @@
     "css-loader": "^2.1.1",
     "firebase": "^6.2.0",
     "firebase-tools": "^7.0.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "loader": "^2.1.1",
     "popper.js": "^1.15.0",
     "postcss": "^7.0.17",
